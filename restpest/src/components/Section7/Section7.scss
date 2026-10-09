@@ -1,0 +1,50 @@
+.section7 {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+  &__row {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+
+  &__round {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+  }
+
+  &__owner {
+    width: 280px;
+  }
+
+  &__text {
+    flex: 1;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #311f09;
+    line-height: 1.15;
+    margin-bottom: 20px;
+
+    span { color: #f5a623; }
+  }
+
+  h3 {
+    font-size: 20px;
+    color: #311f09;
+    margin-bottom: 16px;
+  }
+
+  p {
+    color: #6b6b6b;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}

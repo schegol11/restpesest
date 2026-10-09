@@ -1,0 +1,49 @@
+.section5 {
+  max-width: 1100px;
+  padding: 80px 40px;
+  text-align: center;
+
+  h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #311f09;
+    margin-bottom: 50px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  &__card {
+    img {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #311f09;
+      margin-bottom: 6px;
+    }
+
+    p {
+      color: #6b6b6b;
+      font-size: 15px;
+    }
+  }
+
+  button {
+    padding: 15px 40px;
+    background: #f5a623;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+}
